@@ -83,13 +83,13 @@ public class ShowProducts extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(ProductsTable);
 
-        jLabel1.setText("Nombre");
+        jLabel1.setText("Nombre:");
 
-        jLabel2.setText("Precio");
+        jLabel2.setText("Precio:");
 
-        jLabel3.setText("Cantidad");
+        jLabel3.setText("Cantidad:");
 
-        jLabel4.setText("Descripcion");
+        jLabel4.setText("Descripcion:");
 
         Description.setColumns(20);
         Description.setRows(5);
@@ -180,7 +180,7 @@ public class ShowProducts extends javax.swing.JFrame {
                                     .addGap(18, 18, 18)
                                     .addComponent(Delete, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addComponent(FileRoute)))
-                .addContainerGap(160, Short.MAX_VALUE))
+                .addContainerGap(157, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
